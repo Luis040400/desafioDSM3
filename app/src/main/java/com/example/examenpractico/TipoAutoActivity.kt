@@ -33,7 +33,7 @@ class TipoAutoActivity : AppCompatActivity() {
         etId = findViewById(R.id.etIdTipoAuto)
         etTipo = findViewById(R.id.eTTipoAuto)
 
-        btnActualizar = findViewById(R.id.btnAgregarTipoAuto)
+        btnActualizar = findViewById(R.id.btnActualizarTipoAuto)
         btnAgregar = findViewById(R.id.btnAgregarTipoAuto)
         btnBuscar = findViewById(R.id.btnBuscarTipoAuto)
         btnEliminar = findViewById(R.id.btnEliminarTipoAuto)
