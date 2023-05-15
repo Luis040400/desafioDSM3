@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EXAMENPRACTICO</string>
+    <string-array name="tipo_usuario">
+        <item>Seleccione una opción</item>
+        <item>ADMIN</item>
+        <item>CLIENT</item>
+    </string-array>
+</resources>

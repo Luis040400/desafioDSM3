@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MarcasActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMINISTRACIÓN DE MARCAS"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codigo" />
+
+    <EditText
+        android:id="@+id/etIdTipoMarca"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca" />
+
+    <EditText
+        android:id="@+id/eTMarca"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAgregarMarca"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="4dp"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnActualizarMarca"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="4dp"
+            android:text="Actualizar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnEliminarMarca"
+            android:layout_width="165dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_height="48dp"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnBuscarMarca"
+            android:layout_width="165dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_height="48dp"
+            android:text="Buscar" />
+    </LinearLayout>
+</LinearLayout>

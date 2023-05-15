@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/automoviles" android:title="Automoviles" app:showAsAction="never"></item>
+    <item android:id="@+id/marcas" android:title="Marcas" app:showAsAction="never"></item>
+    <item android:id="@+id/colores" android:title="Colores" app:showAsAction="never"></item>
+    <item android:id="@+id/tipoAuto" android:title="Tipo Automovil" app:showAsAction="never"></item>
+    <item android:id="@+id/usuarios" android:title="Usuarios" app:showAsAction="never"></item>
+
+</menu>

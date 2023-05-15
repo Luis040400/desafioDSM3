@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Iniciar Sesión"
+        android:textColorHint="#363738"
+        android:layout_marginBottom="20dp"
+        android:textSize="44dp"/>
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="300dp"
+        android:layout_height="463dp"
+        android:orientation="vertical"
+        android:background="@drawable/roundviews"
+        android:backgroundTint="#808181"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="vertical" android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese el usuario"
+                android:textAlignment="center"
+                android:textColorHint="#363738"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="232dp"
+                android:layout_height="52dp"
+                android:background="@drawable/roundtxt"
+                android:inputType="textEmailAddress"
+                android:hint="usuario"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="vertical" android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingrese la contraseña"
+                android:textColorHint="#363738"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="232dp"
+                android:layout_height="52dp"
+                android:inputType="textPassword"
+                android:background="@drawable/roundtxt"
+                android:hint="Contraseña"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="234dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#1d64c2"
+            android:hint="Iniciar sesión"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp"
+            app:cornerRadius="90px" />
+    </LinearLayout>
+</LinearLayout>

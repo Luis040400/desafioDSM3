@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminUsuario">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMINISTRACIÓN DE USUARIOS"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codigo" />
+
+    <EditText
+        android:id="@+id/etIdTipoUsuario"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario" />
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña" />
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo" />
+    <Spinner
+        android:id="@+id/spTipo"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:entries="@array/tipo_usuario" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAgregarUsuario"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="4dp"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnActualizarUsuario"
+            android:layout_width="165dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="4dp"
+            android:text="Actualizar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnEliminarUsuario"
+            android:layout_width="165dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_height="48dp"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnBuscarUsuario"
+            android:layout_width="165dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_height="48dp"
+            android:text="Buscar" />
+    </LinearLayout>
+</LinearLayout>
